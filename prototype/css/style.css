@@ -11,3 +11,43 @@
   height: 35vh;
 
 }
+
+/* Text sizing */
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+  .display-2{
+      font-size: 2.5rem;
+    }
+    .display-3{
+        font-size: 1.5rem;
+      }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .display-2{
+      font-size: 3.5rem;
+    }
+    .display-3{
+        font-size: 2.5rem;
+      }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .display-2{
+      font-size: 4.5rem;
+    }
+  .display-3{
+        font-size: 3.5rem;
+      }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+  .display-2{
+      font-size: 5.5rem;
+    }
+  .display-3{
+        font-size: 3rem;
+      }
+
+}
