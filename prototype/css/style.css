@@ -16,38 +16,61 @@
 
 /* Extra small devices (phones, up to 480px) */
 @media screen and (max-width: 767px) {
+  .display-1 {
+    font-size: 3rem;
+  }
   .display-2{
       font-size: 2.5rem;
     }
-    .display-3{
+  .display-3{
         font-size: 1.5rem;
+      }
+  .display-4{
+        font-size: 1.0rem;
       }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+  .display-1 {
+    font-size: 4rem;
+  }
   .display-2{
       font-size: 3.5rem;
     }
-    .display-3{
+  .display-3{
         font-size: 2.5rem;
+      }
+  .display-4{
+        font-size: 1.5rem;
       }
 }
 /* tablets/desktops and up ----------- */
 @media (min-width: 992px) and (max-width: 1199px) {
+  .display-1 {
+    font-size: 5rem;
+  }
   .display-2{
       font-size: 4.5rem;
     }
   .display-3{
-        font-size: 3.5rem;
+        font-size: 2.0rem;
+      }
+  .display-4{
+        font-size: 2.5rem;
       }
 }
 /* large desktops and up ----------- */
 @media screen and (min-width: 1200px) {
+  .display-1 {
+    font-size: 6rem;
+  }
   .display-2{
       font-size: 5.5rem;
     }
   .display-3{
-        font-size: 3rem;
+        font-size: 2.5rem;
       }
-
-}
+  .display-4{
+        font-size: 3.5rem;
+          }
+        }
