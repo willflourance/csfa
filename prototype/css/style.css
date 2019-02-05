@@ -8,8 +8,20 @@
 }
 
 .footer{
-  height: 35vh;
+  min-height: 35vh;
 
+}
+
+.footer-list{
+  list-style: none;
+  padding-left: 0;
+}
+
+.hr-light{
+  border-color: white;
+  border-width: thick;
+  width: 50px;
+  margin-left: 0
 }
 
 /* Text sizing */
