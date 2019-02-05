@@ -24,6 +24,13 @@
   margin-left: 0
 }
 
+.hr-dark{
+  border-color: #bbb;
+  border-width: thick;
+  width: 3em;
+  margin-left: 0
+}
+
 /* Text sizing */
 
 /* Extra small devices (phones, up to 480px) */
@@ -85,4 +92,10 @@
   .display-4{
         font-size: 3.5rem;
           }
+        }
+
+        @media (max-width: 767px) {
+          .partners {
+                text-align: center;
+            }
         }
