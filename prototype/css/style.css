@@ -1,3 +1,23 @@
+.nav-item{
+  border-bottom: solid;
+  border-color: #bbb;
+  border-width: thin;
+  margin: 0 5px 0 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dropdown-menu{
+  border: none;
+  border-radius: 0;
+  background-color: #eee;
+
+}
+
+.dropdown-item .nav-item{
+ border: none;
+}
+
 .jumbotron{
   color: white;
   height: 100vh;
@@ -6,6 +26,8 @@
   background-position: center;
   background-size: cover;
 }
+
+
 
 .footer{
   min-height: 35vh;
